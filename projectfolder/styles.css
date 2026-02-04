@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    box-shadow: 0px 10px 10px #025b20;
+    padding: 6px 12px;
+    width: 207px;
+    border-radius: 5px;
+    color: #22C55E;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    width: 100vh;
+    align-items: center;
+    height: 80px;              
+    width: 100vw;              
+    padding: 0 30px;          
+    box-sizing: border-box;   
+    margin: 0;        
+}
+#header ul{
+    padding: 30px 15px 0px 0px;
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+li a{
+    font-size: larger;
+    text-decoration: none;
+    color: #22C55E;
+    border-radius: 5px;
+    padding: 3px 12px;
+}
+a:hover{
+    background-color: #22C55E;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+hr{
+    border: none;
+    background-color: #22C55E;
+    transform: scaleY(0.5);
+    border-radius: 5px;
+}
+#hero{
+    font-size: small;
+    padding: 0px;
+    margin-top: -20px;
+    font-family:  'Candara';
+}
