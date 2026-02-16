@@ -21,7 +21,16 @@ body{
     justify-content: space-between;
     z-index: 1000;
 }
-
+#banner-img{
+    margin-top: 60px;
+    width: 1900px;
+}
+#listing-head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 50px;
+}
 .logo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
@@ -70,6 +79,7 @@ a:hover{
 }
 
 #title{
+    margin-left: 40px;
     font-size: xx-large ;
     padding: 0px;
     margin: 20px;
