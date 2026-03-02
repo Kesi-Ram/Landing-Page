@@ -29,11 +29,16 @@ body{
     color: #6cdef3;
     text-transform: uppercase;
 }
-
+.left{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
 #header ul{
     list-style: none;
     display: flex;
     gap: 15px;
+    font-size: 1.5em;
 }
 
 #header a{
@@ -45,6 +50,7 @@ body{
 
 #header a:hover{
     background-color: #13778a;
+    transition: ease-in-out 0.5s;
 }
 
 /*  SEARCH  */
@@ -101,6 +107,9 @@ body{
 
 #shop-btn{
     position: absolute;
+    width: 200px;
+    height: 50px;
+    font-size: 1.3em;
     top: 85%;
     left: 15%;
     padding: 12px 30px;
@@ -112,6 +121,7 @@ body{
 
 #shop-btn:hover{
     background: #13778a;
+    transition: ease-in-out 0.5s;
     color: white;
 }
 
@@ -146,6 +156,7 @@ body{
 .product:hover{
     border-color: #13778a;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: ease-in-out 0.5s;
 }
 
 #add-to-cart{
@@ -160,6 +171,7 @@ body{
 #add-to-cart:hover{
     background: #13778a;
     color: white;
+    transition: ease-in-out 0.5s;
 }
 
 /*  FOOTER  */
@@ -172,10 +184,18 @@ body{
     padding: 20px;
 }
 
-#footer ul{
+#info{
+    display: flex;
+    flex-direction: column;
     list-style: none;
+    align-items: center; 
 }
-
+#termsnconditions a{
+    color: white;
+}
+#termsnconditions a:hover{
+    color: blue;
+}
 /*  RESPONSIVE  */
 
 @media (max-width: 1024px){
@@ -214,6 +234,8 @@ body{
     #shop-btn{
         left: 10%;
         top: 60%;
+        width: 180px;
+        height: 50px;
     }
 
     #listing{
@@ -234,5 +256,7 @@ body{
 
     #shop-btn{
         top: 55%;
+        width: 180px;
+        height: 67px;
     }
 }
