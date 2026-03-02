@@ -190,6 +190,9 @@ body{
     list-style: none;
     align-items: center; 
 }
+#termsnconditions{
+    list-style-type: none;
+}
 #termsnconditions a{
     color: white;
 }
